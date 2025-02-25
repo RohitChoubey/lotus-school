@@ -13,6 +13,7 @@ export default function PageBanner() {
     "/gallery": "Gallery",
     "/photos" : "Photos",
     "/videos" : "Videos",
+    "/news" : "News and Events",
   };
 
   // Default title if path is not listed

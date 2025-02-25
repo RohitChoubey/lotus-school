@@ -82,7 +82,7 @@ export default function Header() {
                       
                       {/* Media Dropdown */}
                       <NavDropdown title="Media" id="media-dropdown">
-                        <NavDropdown.Item as={Link} to="/news-events">News & Events</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/news">News & Events</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/photos">Photos</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/videos">Videos</NavDropdown.Item>
                       </NavDropdown>&ensp;

@@ -115,7 +115,21 @@ const Footer = () => {
           {" "}
           <i class="fas fa-level-up-alt"></i>
         </a>
-      </div> */}
+      </div> 
+      
+         const accessToken = 'IGAAYLqBTyQydBZAFBEdDB5QmVpMGxYTWFpTEhTX3NMU0tuS0d0eG1oUFZAzU1BQVDRiRUdvQ0tYWXVXdkY3S2RJX2hJY04yWXdBeFpDeDlneTNtZA01XNy1oSjB5ZA3BRbndSRW1WY0xoNXJmVzBjd09XczM2NF9tbHc0MW80YWg0YwZDZD';
+      const userId = '17841452739077003';   
+      const apiUrl = url || `https://graph.instagram.com/${userId}/media?fields=id,caption,media_url,media_type,permalink&access_token=${accessToken}`;
+     
+      
+
+          const accessToken = 'IGAAYLqBTyQydBZAFBEdDB5QmVpMGxYTWFpTEhTX3NMU0tuS0d0eG1oUFZAzU1BQVDRiRUdvQ0tYWXVXdkY3S2RJX2hJY04yWXdBeFpDeDlneTNtZA01XNy1oSjB5ZA3BRbndSRW1WY0xoNXJmVzBjd09XczM2NF9tbHc0MW80YWg0YwZDZD';
+          const userId = '17841452739077003'; //instagram userId
+          const youtubeApiKey = "AIzaSyAzSHUO0MtJh96T1j8qzakMJGT1KzdzzOE"; // Replace with your API Key
+          const youtubeChannelId = "UCicFA-BUCZMdwlzhTPpGa-Q"; // Replace with your YouTube Channel ID
+
+
+      */}
     </footer>
   );
 };
